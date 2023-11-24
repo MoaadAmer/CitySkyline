@@ -11,7 +11,6 @@
 }
 
 * {
-    border: 1px solid black;
     box-sizing: border-box;
 }
 
@@ -34,6 +33,10 @@ body {
 .background-buildings {
     width: 100%;
     height: 100%;
+}
+.sky{
+    background: radial-gradient(circle closest-corner at 15% 15%,
+    #ffcf33 0%,#ffcf33 20%,#ffff66 21%,#bbeeff 100%);
 }
 
 .building-wrap {
@@ -267,3 +270,4 @@ body {
             var(--building-color3)10%, var(--window-color3) 10%,
             var(--window-color3) 30%);
 }
+
